@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server",
-    "dev": "node --watch server"
+    "dev": "node --watch server",
+    "test": "node --watch --env-file=.env serverTwo",
+    "one" : "node --watch --env-file=.env serverThree",
+    "two" : "node --watch --env-file=.env data"
   },
   "keywords": [],
   "author": "",
