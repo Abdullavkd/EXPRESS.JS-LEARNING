@@ -9,4 +9,11 @@ const app = express();
 app.use('/products',posts);
 
 
+
+
+
+
+
+
+
 app.listen(port,() => console.log(`IT IS RUNNING ON ${port}`));

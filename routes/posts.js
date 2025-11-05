@@ -12,7 +12,7 @@ let products = [
 ];
 
 router.get('/',(req,res) => {
-    console.log("it is the way");
+    res.json('hi guys...')
 });
 
 router.get('/:id',(req,res) => {
