@@ -7,7 +7,7 @@ let app = express();
 
 // body parser middleware
 app.use(express.json());
-// app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({extended: false}));
 
 // Logger Middleware
 app.use(logger);

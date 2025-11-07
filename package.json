@@ -8,15 +8,16 @@
     "start": "node server",
     "dev": "node --watch server",
     "test": "node --watch --env-file=.env serverTwo",
-    "one" : "node --watch --env-file=.env serverThree",
-    "two" : "node --watch --env-file=.env data",
-    "sender" : "node --watch --env-file=.env newRouterServer",
-    "middle" : "node --watch --env-file=.env middlewareTest"
+    "one": "node --watch --env-file=.env serverThree",
+    "two": "node --watch --env-file=.env data",
+    "sender": "node --watch --env-file=.env newRouterServer",
+    "middle": "node --watch --env-file=.env middlewareTest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "express": "^5.1.0"
   }
 }
