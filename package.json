@@ -10,7 +10,8 @@
     "test": "node --watch --env-file=.env serverTwo",
     "one" : "node --watch --env-file=.env serverThree",
     "two" : "node --watch --env-file=.env data",
-    "sender" : "node --watch --env-file=.env newRouterServer"
+    "sender" : "node --watch --env-file=.env newRouterServer",
+    "middle" : "node --watch --env-file=.env middlewareTest"
   },
   "keywords": [],
   "author": "",
