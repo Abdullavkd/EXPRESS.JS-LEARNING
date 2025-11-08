@@ -7,7 +7,7 @@ let router = express.Router();
 
 // GET
 router.get('/:id',getPost)
-router.get('/',getPosts);
+router.get('/api/datas',getPosts);
 
 
 // create new post
